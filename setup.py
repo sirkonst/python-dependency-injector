@@ -40,18 +40,17 @@ class PublishCommand(Command):
         os.system('git push --tags')
 
 
-setup(name='dependency-injector',
+setup(name='acr-dependency-injector',
       version=version,
       description='Python dependency injection framework',
       long_description=description,
       author='ETS Labs',
       author_email='rmogilatov@gmail.com',
-      maintainer='Roman Mogilatov',
-      maintainer_email='rmogilatov@gmail.com',
-      url='https://github.com/ets-labs/python-dependency-injector',
+      maintainer='Konstantin Enchant',
+      maintainer_email='sirkonst@gmail.com',
+      url='https://github.com/sirkonst/python-dependency-injector/tree/acr',
       bugtrack_url='https://github.com/ets-labs/python-dependency-injector' +
                    '/issues',
-      download_url='https://pypi.python.org/pypi/dependency_injector',
       license='BSD New',
       packages=['dependency_injector',
                 'dependency_injector.providers'],
